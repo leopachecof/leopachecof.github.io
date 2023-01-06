@@ -9,13 +9,14 @@ html, body {
 
 body {
     font-family: 'Raleway', sans-serif;
+    /*
     background-image: url(../img/background-natal.png);
     background-size: contain;
     transition: 1.5s;
-     /*
+    */
+     
     background: rgb(70,62,62);
     background: linear-gradient(0deg, rgba(70,62,62,1) 29%, rgba(169,143,113,1) 68%);
-    */
     color: white;
         
 }
@@ -65,9 +66,6 @@ h3 {
     margin: 10px;
 }
 
-.link-list li {
-    margin: 10px 20px;
-}
 
 .container {
     margin: 20px;
@@ -78,13 +76,17 @@ h3 {
     display: block;
     background: rgb(241, 241, 213);
     padding: 15px 20px;
+    width: auto;
     border-radius: 4px;
     text-decoration: none;
-    color: #7d0f0f;
+    color: #3e2e0c;
     font-weight: bold;
     
 }
 
+.link-list li {
+    margin: 10px 20px;
+}
 
 .contato a {
     display: block;
@@ -102,9 +104,18 @@ h3 {
         
 }
 
-.foto-bolo {
+.foto-cardapio div {
+    display: flex;
     width: 100%;
+      
+    
+}
+
+.foto-bolo {
+    width: 50%;
+    padding: 2px;
     border-radius: 8px;
+    box-shadow: 0 2px 12px rgb(77, 77, 77);
     
 }
 
